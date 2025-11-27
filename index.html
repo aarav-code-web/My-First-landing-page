@@ -1,39 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Beautiful Webpage</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Layout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-    <body>
-        <header class="navbar">
-            <h2 class="logo">Header Logo</h2>
-            <nav class="nav-links">
-                <ul>
-                    <li><a>Header link one</a></li>
-                    <li><a>Header link two</a></li>
-                    <li><a>Header link three</a></li>
-                </ul>
-            </nav>
-        </header>
+    <!-- HEADER -->
+    <header class="header">
+        <div class="logo">Header Logo</div>
+        <ul class="nav-links">
+            <li><a href="#">header link one</a></li>
+            <li><a href="#">header link two</a></li>
+            <li><a href="#">header link three</a></li>
+        </ul>
+    </header>
 
-        <section class="hero">
-            <div class="hero-text">
-                <h2>This Website is<br>Awsome</h2>
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-left">
+            <h1>This website is awesome</h1>
+            <p>This website has some subtext that goes here under the main title. 
+                It's a smaller font and the color is lower contrast
+            </p>
+            <button class="hero-btn">Sign up</button>
+        </div>
 
-                <p>
-                    This website has some subtext that goes here under the main title.
-                    It’s a smaller font and the color is lower contrast.
-                </p>
+        <div class="hero-right">
+            <div class="placeholder">this is a placeholder for an image</div>
+        </div>
+    </section>
 
-                <button class="signup-btn">Sign up</button>
+    <!-- INFO SECTION -->
+    <section class="info-section">
+        <h2>Some random information.</h2>
+
+        <div class="info-grid">
+            <div class="info-box">
+                <div class="info-image"></div>
+                <p>this is some subtext under an illustration or image</p>
             </div>
 
-            <div class="hero-image">
-                This is the placeholder of the image.
+            <div class="info-box">
+                <div class="info-image"></div>
+                <p>this is some subtext under an illustration or image</p>
             </div>
-        </section>
-    </body>
+
+            <div class="info-box">
+                <div class="info-image"></div>
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+
+            <div class="info-box">
+                <div class="info-image"></div>
+                <p>this is some subtext under an illustration or image</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- QUOTE SECTION -->
+    <section class="quote-section">
+        <div class="quote-container">
+            <p class="quote">
+                This is an inspiring quote, or a testimonial from a customer.  
+                Maybe it’s just filling up space, or maybe people will actually read it.  
+                Who knows? All I know is that it looks nice.
+            </p>
+
+            <p class="quote-author">-Thor, God of Thunder</p>
+        </div>
+    </section>
+
+    <!-- CTA BANNER -->
+    <section class="cta-container">
+        <div class="cta-box">
+            <div class="cta-text">
+                <h3>Call to action! It’s time!</h3>
+                <p>Sign up for our product by clicking that button right over there!</p>
+            </div>
+            <button class="cta-button">Sign up</button>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        Copyright © The Odin Project 2025
+    </footer>
+
+</body>
 </html>
